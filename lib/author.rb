@@ -8,5 +8,6 @@ class Author
   
   def add_post(post)
     post = Post.new(post, self)
+  end
   
 end
